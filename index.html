@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="alarm-clock">
+        <div>
+    
+        <img src="clock.png" />
+
+        <h2 id="system-time"></h2>
+
+        <p>Alarm at: <span id="alarm-time"></span></p>
+        </div>
+
+        <form>
+            <input type="number" placeholder="hour" />
+            <input type="number" placeholder="minute" />
+            <br>
+
+        </form>
+
+        <div class="buttons">
+
+            <button id="set-alarm-btn">Set Alarm</button>
+            <button id="clear-alarm-btn">Clear Alarm</button>
+
+        </div>
+
+
+
+        <audio src="mixkit-classic-alarm-995.wav" id="ring-alarm"></audio>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
